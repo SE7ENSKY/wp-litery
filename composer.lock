@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56db90f7f032afab9c85af1bac22c45a",
+    "hash": "934e97718db1d854998e250ca644ecd6",
     "packages": [
         {
             "name": "Se7enSky/wp-remotefs",
@@ -236,16 +236,16 @@
             "homepage": "http://wordpress.org/plugins/root-relative-urls/"
         },
         {
-            "name": "wpackagist-theme/twentyfourteen",
-            "version": "1.2",
+            "name": "wpackagist-theme/hueman",
+            "version": "1.4.4",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentyfourteen/",
-                "reference": "1.2"
+                "url": "http://themes.svn.wordpress.org/hueman/",
+                "reference": "1.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/twentyfourteen.1.2.zip",
+                "url": "http://wordpress.org/themes/download/hueman.1.4.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -253,22 +253,22 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/twentyfourteen/"
+            "homepage": "http://wordpress.org/themes/hueman/"
         }
     ],
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v43",
+            "version": "v44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f"
+                "reference": "14d0adc72b0d1c746f71c288e732cb016937bdd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f",
-                "reference": "cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/14d0adc72b0d1c746f71c288e732cb016937bdd1",
+                "reference": "14d0adc72b0d1c746f71c288e732cb016937bdd1",
                 "shasum": ""
             },
             "bin": [
@@ -299,7 +299,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2014-09-11 03:04:06"
+            "time": "2014-10-03 15:58:25"
         }
     ],
     "aliases": [],

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "934e97718db1d854998e250ca644ecd6",
+    "hash": "4e8d0c3de48a9fe22a7fbdb5d3a02988",
     "packages": [
         {
             "name": "Se7enSky/wp-remotefs",
@@ -167,6 +167,29 @@
             "type": "webroot"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "3.9.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/3.9.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/contact-form-7.3.9.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/contact-form-7": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/contact-form-7/"
+        },
+        {
             "name": "wpackagist-plugin/cyr2lat",
             "version": "3.2",
             "source": {
@@ -213,6 +236,29 @@
             "homepage": "http://wordpress.org/plugins/query-monitor/"
         },
         {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "2.2.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/2.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/regenerate-thumbnails": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
             "name": "wpackagist-plugin/root-relative-urls",
             "version": "2.3",
             "source": {
@@ -234,6 +280,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/root-relative-urls/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-pagenavi",
+            "version": "2.86",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-pagenavi/",
+                "reference": "tags/2.86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-pagenavi.2.86.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wp-pagenavi": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wp-pagenavi/"
         },
         {
             "name": "wpackagist-theme/hueman",
